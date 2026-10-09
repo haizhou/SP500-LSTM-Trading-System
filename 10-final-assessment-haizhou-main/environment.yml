@@ -1,0 +1,14 @@
+name: daps-final
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pytorch
+  - pylint
+  - pip
+  - pip:
+      - -r requirements.txt
